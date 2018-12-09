@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22617C85215E61C200BBDA5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22617C84215E61C200BBDA5B /* AppDelegate.swift */; };
+		22617C8C215E61C200BBDA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22617C8B215E61C200BBDA5B /* Assets.xcassets */; };
+		22617CA1215E63FF00BBDA5B /* OTMConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22617CA0215E63FF00BBDA5B /* OTMConstants.swift */; };
+		22617CA3215E643E00BBDA5B /* OTMClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22617CA2215E643E00BBDA5B /* OTMClient.swift */; };
+		22617CA7215E668D00BBDA5B /* OTMAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22617CA6215E668D00BBDA5B /* OTMAuthViewController.swift */; };
+		22617CAA215E82FF00BBDA5B /* GDCBlackBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22617CA9215E82FF00BBDA5B /* GDCBlackBox.swift */; };
+		22617CAC215E860900BBDA5B /* OTMConvenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22617CAB215E860900BBDA5B /* OTMConvenience.swift */; };
+		22617CAE215EAE4E00BBDA5B /* OTMStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22617CAD215EAE4E00BBDA5B /* OTMStudent.swift */; };
+		227083E42164FFD900FA3B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227083E32164FFD900FA3B45 /* Main.storyboard */; };
+		227083E62165005900FA3B45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227083E52165005900FA3B45 /* LaunchScreen.storyboard */; };
+		227083E821651BD700FA3B45 /* OTMMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227083E721651BD700FA3B45 /* OTMMapViewController.swift */; };
+		227083EA2165323200FA3B45 /* OTMWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227083E92165323200FA3B45 /* OTMWebViewController.swift */; };
+		227083EC2166674200FA3B45 /* OTMTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227083EB2166674200FA3B45 /* OTMTableViewController.swift */; };
+		227083EE21666DD500FA3B45 /* OTMTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227083ED21666DD500FA3B45 /* OTMTableViewCell.swift */; };
+		227083F02166810A00FA3B45 /* OTMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227083EF2166810A00FA3B45 /* OTMTabBarController.swift */; };
+		227EB8732180A676009FC53E /* OTMStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227EB8722180A676009FC53E /* OTMStudents.swift */; };
+		22A5159F2167BBAB00DFA5C0 /* OTMPostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A5159E2167BBAB00DFA5C0 /* OTMPostingViewController.swift */; };
+		22A515A12167BFFD00DFA5C0 /* OTMPostingMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A515A02167BFFD00DFA5C0 /* OTMPostingMapViewController.swift */; };
+		22FAB481218A4BF800819B4A /* OTMUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FAB480218A4BF800819B4A /* OTMUser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22617C81215E61C200BBDA5B /* OnTheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22617C84215E61C200BBDA5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22617C8B215E61C200BBDA5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22617C90215E61C200BBDA5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22617CA0215E63FF00BBDA5B /* OTMConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMConstants.swift; sourceTree = "<group>"; };
+		22617CA2215E643E00BBDA5B /* OTMClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMClient.swift; sourceTree = "<group>"; };
+		22617CA6215E668D00BBDA5B /* OTMAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMAuthViewController.swift; sourceTree = "<group>"; };
+		22617CA9215E82FF00BBDA5B /* GDCBlackBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDCBlackBox.swift; sourceTree = "<group>"; };
+		22617CAB215E860900BBDA5B /* OTMConvenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMConvenience.swift; sourceTree = "<group>"; };
+		22617CAD215EAE4E00BBDA5B /* OTMStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMStudent.swift; sourceTree = "<group>"; };
+		227083E32164FFD900FA3B45 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		227083E52165005900FA3B45 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		227083E721651BD700FA3B45 /* OTMMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMMapViewController.swift; sourceTree = "<group>"; };
+		227083E92165323200FA3B45 /* OTMWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMWebViewController.swift; sourceTree = "<group>"; };
+		227083EB2166674200FA3B45 /* OTMTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMTableViewController.swift; sourceTree = "<group>"; };
+		227083ED21666DD500FA3B45 /* OTMTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMTableViewCell.swift; sourceTree = "<group>"; };
+		227083EF2166810A00FA3B45 /* OTMTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMTabBarController.swift; sourceTree = "<group>"; };
+		227EB8722180A676009FC53E /* OTMStudents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMStudents.swift; sourceTree = "<group>"; };
+		22A5159E2167BBAB00DFA5C0 /* OTMPostingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMPostingViewController.swift; sourceTree = "<group>"; };
+		22A515A02167BFFD00DFA5C0 /* OTMPostingMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMPostingMapViewController.swift; sourceTree = "<group>"; };
+		22FAB480218A4BF800819B4A /* OTMUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMUser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22617C7E215E61C200BBDA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22617C78215E61C200BBDA5B = {
+			isa = PBXGroup;
+			children = (
+				22617C83215E61C200BBDA5B /* OnTheMap */,
+				22617C82215E61C200BBDA5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22617C82215E61C200BBDA5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22617C81215E61C200BBDA5B /* OnTheMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22617C83215E61C200BBDA5B /* OnTheMap */ = {
+			isa = PBXGroup;
+			children = (
+				22617CA9215E82FF00BBDA5B /* GDCBlackBox.swift */,
+				22617C84215E61C200BBDA5B /* AppDelegate.swift */,
+				22617C90215E61C200BBDA5B /* Info.plist */,
+				227083E32164FFD900FA3B45 /* Main.storyboard */,
+				227083E52165005900FA3B45 /* LaunchScreen.storyboard */,
+				22617C8B215E61C200BBDA5B /* Assets.xcassets */,
+				22617C9D215E630F00BBDA5B /* Controller */,
+				22617C9C215E630800BBDA5B /* View */,
+				22617C9B215E62FF00BBDA5B /* Model */,
+			);
+			path = OnTheMap;
+			sourceTree = "<group>";
+		};
+		22617C9B215E62FF00BBDA5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22617C9E215E63D500BBDA5B /* Clients */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22617C9C215E630800BBDA5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				22A515A42168F05C00DFA5C0 /* Clients */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		22617C9D215E630F00BBDA5B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22A515A22168F03200DFA5C0 /* Clients */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		22617C9E215E63D500BBDA5B /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				22617C9F215E63E100BBDA5B /* OnTheMap */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		22617C9F215E63E100BBDA5B /* OnTheMap */ = {
+			isa = PBXGroup;
+			children = (
+				22617CA0215E63FF00BBDA5B /* OTMConstants.swift */,
+				22617CA2215E643E00BBDA5B /* OTMClient.swift */,
+				22617CAB215E860900BBDA5B /* OTMConvenience.swift */,
+				22617CAD215EAE4E00BBDA5B /* OTMStudent.swift */,
+				227EB8722180A676009FC53E /* OTMStudents.swift */,
+				22FAB480218A4BF800819B4A /* OTMUser.swift */,
+			);
+			path = OnTheMap;
+			sourceTree = "<group>";
+		};
+		22A515A22168F03200DFA5C0 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				22A515A32168F03E00DFA5C0 /* OnTheMap */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		22A515A32168F03E00DFA5C0 /* OnTheMap */ = {
+			isa = PBXGroup;
+			children = (
+				22617CA6215E668D00BBDA5B /* OTMAuthViewController.swift */,
+				227083E721651BD700FA3B45 /* OTMMapViewController.swift */,
+				227083E92165323200FA3B45 /* OTMWebViewController.swift */,
+				227083EB2166674200FA3B45 /* OTMTableViewController.swift */,
+				227083EF2166810A00FA3B45 /* OTMTabBarController.swift */,
+				22A5159E2167BBAB00DFA5C0 /* OTMPostingViewController.swift */,
+				22A515A02167BFFD00DFA5C0 /* OTMPostingMapViewController.swift */,
+			);
+			path = OnTheMap;
+			sourceTree = "<group>";
+		};
+		22A515A42168F05C00DFA5C0 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				22A515A52168F06400DFA5C0 /* OnTheMap */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		22A515A52168F06400DFA5C0 /* OnTheMap */ = {
+			isa = PBXGroup;
+			children = (
+				227083ED21666DD500FA3B45 /* OTMTableViewCell.swift */,
+			);
+			path = OnTheMap;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22617C80215E61C200BBDA5B /* OnTheMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22617C93215E61C200BBDA5B /* Build configuration list for PBXNativeTarget "OnTheMap" */;
+			buildPhases = (
+				22617C7D215E61C200BBDA5B /* Sources */,
+				22617C7E215E61C200BBDA5B /* Frameworks */,
+				22617C7F215E61C200BBDA5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnTheMap;
+			productName = OnTheMap;
+			productReference = 22617C81215E61C200BBDA5B /* OnTheMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22617C79215E61C200BBDA5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = macos;
+				TargetAttributes = {
+					22617C80215E61C200BBDA5B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 22617C7C215E61C200BBDA5B /* Build configuration list for PBXProject "OnTheMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22617C78215E61C200BBDA5B;
+			productRefGroup = 22617C82215E61C200BBDA5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22617C80215E61C200BBDA5B /* OnTheMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22617C7F215E61C200BBDA5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227083E62165005900FA3B45 /* LaunchScreen.storyboard in Resources */,
+				227083E42164FFD900FA3B45 /* Main.storyboard in Resources */,
+				22617C8C215E61C200BBDA5B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22617C7D215E61C200BBDA5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22617CA7215E668D00BBDA5B /* OTMAuthViewController.swift in Sources */,
+				22617CA3215E643E00BBDA5B /* OTMClient.swift in Sources */,
+				227083E821651BD700FA3B45 /* OTMMapViewController.swift in Sources */,
+				22617C85215E61C200BBDA5B /* AppDelegate.swift in Sources */,
+				227083F02166810A00FA3B45 /* OTMTabBarController.swift in Sources */,
+				227083EA2165323200FA3B45 /* OTMWebViewController.swift in Sources */,
+				22FAB481218A4BF800819B4A /* OTMUser.swift in Sources */,
+				227EB8732180A676009FC53E /* OTMStudents.swift in Sources */,
+				22617CAA215E82FF00BBDA5B /* GDCBlackBox.swift in Sources */,
+				22A515A12167BFFD00DFA5C0 /* OTMPostingMapViewController.swift in Sources */,
+				227083EE21666DD500FA3B45 /* OTMTableViewCell.swift in Sources */,
+				22617CA1215E63FF00BBDA5B /* OTMConstants.swift in Sources */,
+				22A5159F2167BBAB00DFA5C0 /* OTMPostingViewController.swift in Sources */,
+				22617CAE215EAE4E00BBDA5B /* OTMStudent.swift in Sources */,
+				227083EC2166674200FA3B45 /* OTMTableViewController.swift in Sources */,
+				22617CAC215E860900BBDA5B /* OTMConvenience.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		22617C91215E61C200BBDA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22617C92215E61C200BBDA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22617C94215E61C200BBDA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46YA4P3M34;
+				INFOPLIST_FILE = OnTheMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = any.OnTheMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22617C95215E61C200BBDA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46YA4P3M34;
+				INFOPLIST_FILE = OnTheMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = any.OnTheMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22617C7C215E61C200BBDA5B /* Build configuration list for PBXProject "OnTheMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22617C91215E61C200BBDA5B /* Debug */,
+				22617C92215E61C200BBDA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22617C93215E61C200BBDA5B /* Build configuration list for PBXNativeTarget "OnTheMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22617C94215E61C200BBDA5B /* Debug */,
+				22617C95215E61C200BBDA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22617C79215E61C200BBDA5B /* Project object */;
+}
